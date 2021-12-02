@@ -1,153 +1,65 @@
-    1  ifconfig
-    2  sudo apt update
-    3  sudo apt install ansible
-    4  sudo apt install software-properties-common
-    5  sudo add-apt-repository--yes--update ppa:ansible/ansible
-    6  sudo add-apt-repository --yes --update ppa:ansible/ansible
-    7  sudo apt install ansible
-    8  clear
-    9  ssh-keygen
-   10  ssh-copy-id user1@10.0.3.15
-   11  su -root
-   12  sudo -i
-   13  gedit /etc/ansible
-   14  cd /etc/ansible
-   15  ls
-   16  gedit hosts
-   17  cd ..
-   18  ls
-   19  cd /home
-   20  ls
-   21  cd ..
-   22  cd .
-   23  cd
-   24  pwd
-   25  ls
-   26  cd desktop
-   27  sudo systemctl status ssh
-   28  end
-   29  sudo apt update
-   30  sudo apt install openssh server
-   31  sudo apt install openssh-server
-   32  -ssh-copy-id user1@10.0.3.15
-   33  - ssh-copy-id user1@10.0.3.15
-   34  -ssh-copy-id user1@10.0.3.15
-   35  sudo apt update
-   36  -ssh-copy-id user1@10.0.3.15
-   37  ssh-copy-id user1@10.0.3.15
-   38  clear
-   39  ifconfig
-   40  ssh -keygen
-   41  ssh-keygen
-   42  ssh-copy-id user1@192.168.1.108
-   43  ssh user1@10.0.3.15
-   44  ssh user1@192.168.1.108
-   45  ls
-   46  exit
-   47  history
-   48  cd /etc/ansible
-   49  ls
-   50  gedit hosts
-   51  cd
+    1  sudo apt install update
+    2  exit
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt auto remove
+    6  sudo apt autoremove
+    7  clear
+    8  ifconfig
+    9  sudo apt update
+   10  sudo systemctl status-ssh
+   11  sudo systemctl status ssh
+   12  sudo systemclt status ssh
+   13  clear
+   14  ifconfig
+   15  clear
+   16  ifconfig
+   17  sudo useradd deepak
+   18  cd /home
+   19  ls
+   20  cd
+   21  sudo adduser deepak
+   22  su deepak
+   23  userdel deepak
+   24  cd
+   25  cd /home
+   26  ls
+   27  cd /home/user1/.ssh
+   28  ls
+   29  rm authorized_keys 
+   30  ls
+   31  cd /home
+   32  ls
+   33  cd /home/user1/.ssh
+   34  ls
+   35  sudo systemctl status ssh
+   36  cd /home/user1/.ssh
+   37  ls
+   38  cd /home/deepak/.ssh
+   39  cd /home/user1/.ssh
+   40  ls
+   41  ifconfig
+   42  sudo deluser deepak
+   43  exit
+   44  cd
+   45  cd /var
+   46  ls
+   47  /www
+   48  cd /www
+   49  cd /var/www
+   50  ls
+   51  cd html
    52  ls
-   53  ansible all -m ping
-   54  cd /etc/ansible
-   55  gedit hosts
-   56  ifconfig
-   57  gedit hosts
-   58  cd
-   59  gedit vim /etc/ansible/hosts 
-   60  LS
-   61  ls
-   62  cd /etc/ansible
-   63  ls
-   64  sudo vi hosts
-   65  ansible all -m ping
-   66  sudo vi hosts
-   67  ansible all -m ping
-   68  ls
-   69  sudo vi hosts
-   70  ansible all -m ping
-   71  sudo vi hosts
-   72  ansible all -m ping
-   73  ssh-copy-id 192.168.1.108
-   74  cd
-   75  ssh-copy-id 192.168.1.108
-   76  ansible all -m ping
-   77  ssh-copy-id 192.168.1.108
-   78  ansible all -m ping
-   79  exit
-   80  ls
-   81  cd /etc/ansible
-   82  ls
-   83  gedit hosts
-   84  ansible -m ping
-   85  clear
-   86  ansible all -m ping
-   87  ssh-copy-id 192.168.1.108
-   88  ansible all -m ping
-   89  ssh-copy-id 192.168.1.108
-   90  ssh -copy-id 192.168.1.108
-   91  ssh-copy-id 192.168.1.108
-   92  sudo systemctl status ssh
-   93  end
-   94  ssh-copy-id 192.168.1.108
-   95  ansible all -m ping
-   96  ssh-copy-id 192.168.1.108
-   97  cd
-   98  cd /var/www
-   99  cd /var
-  100  ls
-  101  cd /tmp
-  102  ls
-  103  clear
-  104  ls
-  105  cd ..
-  106  ls
-  107  cd ..
-  108  ls
-  109  cd ..
-  110  cd /home
-  111  ls
-  112  cd
-  113  cd /var/www/index.html
-  114  ls
-  115  ansible-playbook play3.txt -
-  116  ansible-playbook play3.yml -K
-  117  gedit play3.yml
-  118  ansible-playbook play3.yml -K
-  119  gedit /etc/ansible/hosts
-  120  gedit git-install.yml
-  121  ansible-playbook git-install.yml --syntax-check
-  122  ansible-playbook git-install.yml
-  123  gedit git-install.yml
-  124  ansible-playbook git-install.yml
-  125  ansible-playbook git-install.yml -K
-  126  gedit git-install.yml
-  127  ansible-vault create git-install.yml
-  128  ansible-vault edit git-install.yml
-  129  ansible-vault encrypt git-install.yml
-  130  cat git-install.yml
-  131  ansible-vault view  git-install.yml
-  132  ansible-vault rekey  git-install.yml
-  133  ls
-  134  gedit loop.yml
-  135  ansible-playbook loop.yml --syntax-check
-  136  gedit loop.yml
-  137  ansible-playbook loop.yml --syntax-check
-  138  ansible-playbook loop.yml -K
-  139  gedit loop2.yml
-  140  ansible-playbook loop2.yml --syntax-check
-  141  ansible-playbook loop2.yml 
-  142  ansible-playbook loop2.yml -K
-  143  gedit loop2.yml
-  144  gedit loop_vars.yml
-  145  ansible-playbook  loop_vars.yml --syntax-check
-  146  gedit loop_vars.yml
-  147  ansible-playbook  loop_vars.yml --syntax-check
-  148  gedit loop_vars.yml
-  149  ansible-playbook  loop_vars.yml --syntax-check
-  150  gedit loop_vars.yml
-  151  ansible-playbook  loop_vars.yml --syntax-check
-  152  ansible-playbook  loop_vars.yml 
-  153  history > history.txt
+   53  gedit index.html
+   54  cd
+   55  git --version
+   56  ls
+   57  /home
+   58  cd /home
+   59  ls
+   60  history > history_node.txt
+   61  history
+   62  history > history.txt
+   63  sudo history > history.txt
+   64  cd
+   65  history > history.txt
