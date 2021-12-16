@@ -1,26 +1,16 @@
 pipeline {
-
-    agent any
-
-
-
-     stages {
-
-        stage('Initialize') {
-          steps{
-              echo "Hello World"
-
-            echo "${BUILD_NUMBER}"
+  agent any
+  stages {
+     stage('Initialize') {
+         steps{
+             echo "Hello World"
+             echo "${BUILD_NUMBER}"
           }
         }
 
-
-
         stage('Run Test ') {
-        steps{
-
+         steps{
             echo "Hello World"
-
             echo $"{BUILD_NUMBER}"
             }
         }
