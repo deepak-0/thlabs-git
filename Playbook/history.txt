@@ -1,0 +1,65 @@
+    1  sudo apt install update
+    2  exit
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt auto remove
+    6  sudo apt autoremove
+    7  clear
+    8  ifconfig
+    9  sudo apt update
+   10  sudo systemctl status-ssh
+   11  sudo systemctl status ssh
+   12  sudo systemclt status ssh
+   13  clear
+   14  ifconfig
+   15  clear
+   16  ifconfig
+   17  sudo useradd deepak
+   18  cd /home
+   19  ls
+   20  cd
+   21  sudo adduser deepak
+   22  su deepak
+   23  userdel deepak
+   24  cd
+   25  cd /home
+   26  ls
+   27  cd /home/user1/.ssh
+   28  ls
+   29  rm authorized_keys 
+   30  ls
+   31  cd /home
+   32  ls
+   33  cd /home/user1/.ssh
+   34  ls
+   35  sudo systemctl status ssh
+   36  cd /home/user1/.ssh
+   37  ls
+   38  cd /home/deepak/.ssh
+   39  cd /home/user1/.ssh
+   40  ls
+   41  ifconfig
+   42  sudo deluser deepak
+   43  exit
+   44  cd
+   45  cd /var
+   46  ls
+   47  /www
+   48  cd /www
+   49  cd /var/www
+   50  ls
+   51  cd html
+   52  ls
+   53  gedit index.html
+   54  cd
+   55  git --version
+   56  ls
+   57  /home
+   58  cd /home
+   59  ls
+   60  history > history_node.txt
+   61  history
+   62  history > history.txt
+   63  sudo history > history.txt
+   64  cd
+   65  history > history.txt

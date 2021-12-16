@@ -1,13 +1,12 @@
-- name: create at new file and delete it.
+---
+- name: create new file and delete it.
   hosts: all
   tasks:
-    - name: create username file in tmp directory
-      file:
-         path: '/tmp/deepak1.txt'
-         state: touch
-    - name : copy host file to all nodes
-      copy:
-        src: '/etc/ansible/hosts'
-        dest: '/tmp'     
-        
-
+   - name: create username file in tmp directory
+     file:
+       path: '/tmp/deepak1.txt'
+       state: touch
+   - name: copy host file to every node
+     copy:
+      src: '/etc/ansible/hosts'
+      dest: '/tmp'

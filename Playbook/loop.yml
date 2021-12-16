@@ -1,0 +1,10 @@
+---
+- name: loops
+  hosts: all
+  become: yes
+  tasks: 
+  - name: create file using loops 
+    shell: "{{item}}"
+    loop:
+     - "touch one.txt"
+     - "ls -lrt > one.txt"
