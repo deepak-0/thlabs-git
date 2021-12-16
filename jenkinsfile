@@ -17,11 +17,12 @@ pipeline {
 
 
         stage('Run Test ') {
+        steps{
 
             echo "Hello World"
 
-            echo ${BUILD_NUMBER}
-
+            echo $"{BUILD_NUMBER}"
+            }
         }
 
      }
