@@ -1,0 +1,111 @@
+    1  pwd
+    2  git clone https://github.com/deepak-0/thlabs-git.git
+    3  ls
+    4  cd thlabs-git/
+    5  ls
+    6  pwd
+    7  ls
+    8  code.
+    9  code .
+   10  code.
+   11  code .
+   12  code .
+   13  code.
+   14  code .
+   15  code.
+   16  pwd
+   17  code.
+   18  code .
+   19  code.
+   20  ls
+   21  code.
+   22  code .
+   23  git
+   24  git config --listgit 
+   25  git config --global user.name "deepak-0"
+   26  gigggg  ^ct
+   27  git config --global user.email "veludeepak2012@gmail.com"
+   28  git config-- list
+   29  git config --list
+   30  git config --list
+   31  git init
+   32  code .
+   33  cd
+   34  pwd
+   35  ls
+   36  git config --list
+   37  cd  /c/THLabs/thlabs-git
+   38  git clone https://github.com/sshelake25/thlabs-git
+   39  git clone https://github.com/sshelake25/thlabs-git 
+   40  ls
+   41  cd thlabs-git/
+   42  ls
+   43  git pull
+   44  git branch
+   45  git clone https://github.com/deepak-0/thlabs-git-1.git
+   46  ls
+   47  pwd thlabs-git-1/
+   48  ls
+   49  cd thlabs-git-1/
+   50  ls
+   51  git checkout -b "Deepak"
+   52  touch deepak.txt
+   53  vi deepak.txt
+   54  cat deepak.txt
+   55  git status
+   56  git push
+   57  git push --set-upstream origin deepak
+   58  ls
+   59  git push
+   60  git clone https://github.com/sshelake25/thlabs-git
+   61  ls
+   62  ls -al
+   63  cd thlabs-git/
+   64  git checkout -b deepak
+   65  ls
+   66  mkdir deepak
+   67  cd deepak
+   68  touch index.html
+   69  code .
+   70  git status
+   71  pwd
+   72  cd ..
+   73  git status
+   74  git add .
+   75  git status
+   76  git commit -m "commit index.html"
+   77  git remote -v
+   78  git push
+   79  git push --set-upstream origin deepak
+   80  ls
+   81  pwd thlabs-git-1/
+   82  ls
+   83  cd thlabs-git-1/
+   84  ls
+   85  git push
+   86  git push --set-upstream origin Deepak
+   87  git remote add hygia_id https://github.com/sshelake25/Hygieia.git
+   88  git remote -v
+   89  git checkout -b "fromthlab_hygia"
+   90  git add .
+   91  git add.
+   92  git add
+   93  clear
+   94  git stash list
+   95  git stash
+   96  clear
+   97  git stash 
+   98  git stash list
+   99  git checkout -b stash/s1 origin/main
+  100  git stash 
+  101  git stash list
+  102  git add .
+  103  git status
+  104  git stash stash2.txt
+  105  git stash save stash2.txt
+  106  git stash list
+  107  history
+  108  git stash save newstash.txt
+  109  git stash list
+  110  git status
+  111  history > history1.txt
