@@ -7,11 +7,11 @@ pipeline {
      stages {
 
         stage('Initialize') {
-
-            echo "Hello World"
+          steps{
+              echo "Hello World"
 
             echo ${BUILD_NUMBER}
-
+          }
         }
 
 
