@@ -1,0 +1,16 @@
+{
+    Manufacturer: 'OPPO',
+    Model: 'F5' ,
+    Camera: '16 MP'
+    Display: '6 inch',
+    Android: 'Nougat',
+    Price: 2000
+}
+{
+    Manufacturer: 'MI',
+    Model: 'Max 2' ,
+    Memory : '32 , 64 ,128 ',
+    Display: '6 inch',
+    Android: 'Nougat',
+    Price: 2000
+}
